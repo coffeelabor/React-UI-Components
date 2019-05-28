@@ -28,9 +28,13 @@ const App = () => {
 
   return (
     <div className="App">
-      <Display />
-      <NumberButton numbers={numbers} />
-      <ActionButton actions={actions} />
+      <div>
+        <Display />
+      </div>
+      <div className="middle">
+        <NumberButton numbers={numbers} />
+        <ActionButton actions={actions} />
+      </div>
     </div>
   );
 };
