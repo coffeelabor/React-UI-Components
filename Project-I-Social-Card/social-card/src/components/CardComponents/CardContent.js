@@ -3,7 +3,7 @@ import "./Card.css";
 
 const CardContent = () => {
   return (
-    <div>
+    <div className="card-content">
       <h3>Welcome React Social Card!</h3>
       <p>
         Begin by exploring the `components` directory. You'll notice we have a

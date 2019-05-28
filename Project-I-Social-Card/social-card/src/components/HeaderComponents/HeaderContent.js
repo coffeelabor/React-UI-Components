@@ -3,7 +3,7 @@ import "./Header.css";
 
 const HeaderContent = () => {
   return (
-    <p>
+    <p className="header-content">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab neque deleniti
       doloremque eveniet. Inventore, excepturi doloribus et nesciunt nobis
       pariatur facere atque? Officia tempora voluptate dolorem corrupti iusto
