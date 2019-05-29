@@ -1,17 +1,10 @@
 import React from "react";
 import "./Button.css";
 
-const Actions = [
-  { action: "#" },
-  { action: "##" },
-  { action: "###" },
-  { action: "####" }
-];
-
-const ActionButton = () => {
+const ActionButton = props => {
   return (
-    <div className="Button">
-      {Actions.map(symbol => {
+    <div className="ActionButton">
+      {props.actions.map(symbol => {
         return <div className="box">{symbol.action}</div>;
       })}
     </div>
