@@ -1,0 +1,12 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 800px;
+  background-color: lightgrey;
+}
+
+.middle {
+  display: flex;
+  justify-content: space-between;
+}
